@@ -5,6 +5,7 @@
 {% if resources.tags != "" and resources.tags != nil %}tags: {{resources.tags}}{% endif %}
 {% if resources.summary != "" and resources.summary != nil %}summary: "{{resources.summary}}"{% endif %}
 {% if resources.summary != "" and resources.summary != nil %}description: "{{resources.summary}}"{% endif %}
+{% if resources.permalink != "" and resources.permalink != nil %}permalink: "{{resources.permalink}}"{% endif %}
 ---
 
 {{ super() }}
